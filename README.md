@@ -63,13 +63,13 @@ Para reproduzir os resultados localmente (Linux/macOS):
 
 ## 📊 Estrutura do Relatório (Notebook)
 
-O notebook está organizado sequencialmente de acordo com as diretrizes do enunciado (`docs/t1-V1.pdf`)[cite: 28, 29]:
+O notebook está organizado sequencialmente de acordo com as diretrizes do enunciado (`docs/t1-V1.pdf`):
 
-1. **Dados em Bruto (*Raw Data*):** Classificação estatística das 21 variáveis, análise exploratória inicial (sumários, histogramas, boxplots) e levantamento de inconsistências (duplicados, valores omissos, erros `#VALUE!`, registos fisiologicamente impossíveis)[cite: 28].
-2. **Pré-processamento (*Preprocessed Data*):** Remoção de atributos irrelevantes/omissos (`ID`, `HDA2`), tratamento de duplicados, normalização de categorias, imputação/filtragem de outliers e engenharia de atributos clínicos (faixas etárias pediátricas e percentis de IMC/tensão arterial)[cite: 1, 27, 28].
-3. **Descrição Básica Pós-Limpeza:** Comparação estatística e visual das distribuições após o tratamento dos dados[cite: 28, 29].
+1. **Dados em Bruto (*Raw Data*):** Classificação estatística das 21 variáveis, análise exploratória inicial (sumários, histogramas, boxplots) e levantamento de inconsistências (duplicados, valores omissos, erros `#VALUE!`, registos fisiologicamente impossíveis).
+2. **Pré-processamento (*Preprocessed Data*):** Remoção de atributos irrelevantes/omissos (`ID`, `HDA2`), tratamento de duplicados, normalização de categorias, imputação/filtragem de outliers e engenharia de atributos clínicos (faixas etárias pediátricas e percentis de IMC/tensão arterial).
+3. **Descrição Básica Pós-Limpeza:** Comparação estatística e visual das distribuições após o tratamento dos dados.
 4. **Análise e Modelação:**
-   * **Análise Bivariada e Multivariada:** Correlações, Informação Mútua (*Mutual Information*) e *Clustering* para identificação de perfis clínicos[cite: 2, 27, 29].
-   * **Feature Selection / Importance:** Ranking de atributos por métodos de Filtro, *Wrapper* e *Embedded*[cite: 2, 27].
-   * **Modelos Preditivos:** Treino, validação cruzada e comparação de *Decision Trees*, *Support Vector Machines (SVM)*, *Bayesian Networks* e *Random Forest*[cite: 28, 29].
-5. **Discussão e Conclusões:** Interpretação clínica das variáveis mais relevantes face ao fluxograma cardiológico e análise comparativa de desempenho[cite: 26, 29].
+   * **Análise Bivariada e Multivariada:** Correlações, Informação Mútua (*Mutual Information*) e *Clustering* para identificação de perfis clínicos.
+   * **Feature Selection / Importance:** Ranking de atributos por métodos de Filtro, *Wrapper* e *Embedded*.
+   * **Modelos Preditivos:** Treino, validação cruzada e comparação de *Decision Trees*, *Support Vector Machines (SVM)*, *Bayesian Networks* e *Random Forest*.
+5. **Discussão e Conclusões:** Interpretação clínica das variáveis mais relevantes face ao fluxograma cardiológico e análise comparativa de desempenho.
